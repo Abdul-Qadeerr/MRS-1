@@ -1,0 +1,22 @@
+From 519fd2d5e7021e84562ee3225f13f4bfecea0288 Mon Sep 17 00:00:00 2001
+From: SagarChhabriya34 <sagarchhabriya34@gmail.com>
+Date: Wed, 8 May 2024 12:57:51 +0500
+Subject: [PATCH 1/2] Add greet.py
+
+---
+ greet.py | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 greet.py
+
+diff --git a/greet.py b/greet.py
+new file mode 100644
+index 0000000..969c096
+--- /dev/null
++++ b/greet.py
+@@ -0,0 +1,2 @@
++def greet():
++    print("Greeting from the lenove!")
+\ No newline at end of file
+-- 
+2.41.0.windows.1
+

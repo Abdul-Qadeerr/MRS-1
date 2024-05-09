@@ -1,0 +1,59 @@
+diff --git a/fact.py b/fact.py
+new file mode 100644
+index 0000000..8f404eb
+--- /dev/null
++++ b/fact.py
+@@ -0,0 +1,8 @@
++def fact(n):
++    fact = 1
++    while n > 0:
++        fact = fact * n
++        n = n -1
++    print(fact)
++    
++fact(3)
+\ No newline at end of file
+diff --git a/greet.py b/greet.py
+new file mode 100644
+index 0000000..969c096
+--- /dev/null
++++ b/greet.py
+@@ -0,0 +1,2 @@
++def greet():
++    print("Greeting from the lenove!")
+\ No newline at end of file
+diff --git a/hpReadme.md b/hpReadme.md
+deleted file mode 100644
+index c978d68..0000000
+--- a/hpReadme.md
++++ /dev/null
+@@ -1 +0,0 @@
+-### This line from the HP using Git.
+\ No newline at end of file
+diff --git a/kwargs.py b/kwargs.py
+deleted file mode 100644
+index ab0978b..0000000
+--- a/kwargs.py
++++ /dev/null
+@@ -1,12 +0,0 @@
+-def kwargsFunc(*kwargs):
+-    sum,count = 0,0
+-    for i in kwargs:
+-        print(i,end=", ")
+-        sum += i
+-        count += 1
+-    print("Total sum: ",sum)
+-    print("Average: ", sum/count) 
+-
+-
+-
+-kwargsFunc(1,2,3,4,5)
+\ No newline at end of file
+diff --git a/lenovoReadme.md b/lenovoReadme.md
+new file mode 100644
+index 0000000..5919fa5
+--- /dev/null
++++ b/lenovoReadme.md
+@@ -0,0 +1 @@
++From Lenovo PC
+\ No newline at end of file
